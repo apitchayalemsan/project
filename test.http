@@ -1,0 +1,37 @@
+# GET http://localhost:3000/user/1 HTTP/1.1.
+
+# POST http://localhost:3000/add_user HTTP/1.1
+# content_type: application/json
+
+# {
+#     "user_id": 2,
+#     "user_name": "test2",
+#     "user_pwd" : "2222",
+#     "first_name":"Prae",
+#     "last_name": "Lemsan",
+#     "houseNo": "1",
+#     "villageNo": "1",
+#     "tumbon": "ชะรัด",
+#     "sub_area": "กงหรา",
+#     "province": "พัทลุง",
+#     "role_id": 2
+
+# }
+
+
+
+# POST http://localhost:8080/api/saveForm HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "seller": ""
+# }
+
+
+POST http://localhost:8080/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "test1",
+    "password": "1111"
+}
